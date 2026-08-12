@@ -1,0 +1,104 @@
+/*----------------------------nav bar----------------------------------------------------------------------------------*/
+.topnav {
+  list-style-type: none;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding-left: 5px;
+  padding-top:6px;
+  padding-bottom: 9px;
+  top:0;
+  left:0;
+  overflow: hidden;
+  background-color: #3b3b39;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.topnav li a:hover {
+  background-color: #bbb4b4;
+  max-width: 100%;
+  max-height:100%;
+}
+
+.Navpic {
+  width: 20px;
+  height: 19px;
+  padding-top: 0.5px;
+ 
+}
+
+.navpic2 {
+  height: 16px; 
+  width: 18px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+
+/*------------------------top section------------------------------------------------------------------------------------------*/
+.topsection {
+  text-align: center;
+}
+/*----------------------------store--------------------------------------------------------------------------------------*/
+.product {
+  display: flex;
+  flex-wrap: wrap; 
+  list-style: none; 
+  padding: 0;
+  margin-left: 150px;
+  margin-right: 100px;
+  gap: 20px; 
+}
+
+
+
+.product-card { 
+  text-align: center;
+  width: 200px;
+  border: 1px solid #d6d6d6; 
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  padding: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .product-card:hover { transform: translateY(+4px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+  }
+
+.product img.Productimg {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px; 
+  max-height: 185px;
+}
+
+.product p {
+  margin-top: px;
+  font-size: 14px;
+}
+/*------------------------------------------------------------------------*/
+.HeaderImg {
+  width:65px;
+  height:auto;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+body {
+  padding-top: 60px;
+}
