@@ -4,6 +4,7 @@
             Cart
         </title>
          <link rel="stylesheet" href="Style.css">
+         <script src="Cart.js" defer></script>
     </head>
 
         <body>
@@ -18,13 +19,39 @@
                     </ul>
                 </header>
             </div>
+            </div>
 
-            <h1> Your Basket</h1>
- 
-            Your total Items:
-            Your total Amout To Pay:
+            <div class ="topsection">
+                <p>
+                 <h1><img src="Icons/HomeCO.png" class="HeaderImg">Home<font color="#e0be16">C</font><font color="#1e9dea">O</font>.</h1><br>
+                </p>      
             
             
-            
+
+            </div>
+
+                <form class="Cart" id="cart">
+
+                    <h1> Your Basket</h1>
+
+                    <div id="cartItems"></div>
+
+                    <br>
+
+
+                    <p>
+                        Your total Items:
+                        <span id="cartItemCount">0</span>
+                    </p>
+
+                    <p>
+                        Your total Amout To Pay:
+                        R<span id="cartTotal">0.00</span>
+                    </p>
+
+                    <button type="Submit">Order</button>
+
+                 </form>
+                
         </body>
     </htmL>
